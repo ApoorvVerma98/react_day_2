@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { Component1 } from './fourComponent';
+import { Component2 } from './fourComponent';
+import { Component3 } from './fourComponent';
+import { Component4 } from './fourComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Component1/>
+    <Component2/>
+    <Component3/>
+    <Component4/>
   </React.StrictMode>
 );
 
